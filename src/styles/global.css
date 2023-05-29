@@ -1,0 +1,12 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	font-size: 2em;
+	overflow: hidden scroll;
+}
+
+p,
+body,
+h2 {
+	margin: 0;
+}
