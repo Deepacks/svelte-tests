@@ -10,3 +10,25 @@ body,
 h2 {
 	margin: 0;
 }
+
+h2 {
+	margin-bottom: 10px;
+}
+
+section.primary {
+	border: 2px solid red;
+	margin-bottom: 20px;
+}
+
+section.secondary {
+	padding-bottom: 10px;
+	border-bottom: 1px solid red;
+}
+
+section.secondary:last-of-type {
+	border-bottom: none;
+}
+
+section > p {
+	font-weight: 600;
+}
